@@ -74,3 +74,6 @@ C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MM
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Client\obj\Debug\MMS.Client.csproj.GenerateResource.Cache
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Client\bin\Debug\MMS.Command.dll
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Client\bin\Debug\MMS.Command.pdb
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\bin\Debug\MMS.Client.exe.config
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Client.exe
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Client.pdb

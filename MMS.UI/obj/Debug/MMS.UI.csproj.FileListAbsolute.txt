@@ -70,3 +70,24 @@ C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MM
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.UI\obj\Debug\MMS.UI.csproj.GenerateResource.Cache
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.UI\obj\Debug\MMS.UI.dll
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.UI\obj\Debug\MMS.UI.pdb
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\bin\Debug\MMS.UI.dll
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\bin\Debug\MMS.UI.pdb
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Resource\Resource.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI_MarkupCompile.cache
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI_MarkupCompile.lref
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Connection\Connection.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Edit\Edit.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Explorer\Explorer.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Menu\Menu.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Navigation\Navigation.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Table\Table.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Tabs\Tabs.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Themes\Generic.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Window\Window.baml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.g.resources
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.Properties.Resources.resources
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.csproj.GenerateResource.Cache
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.dll
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.pdb

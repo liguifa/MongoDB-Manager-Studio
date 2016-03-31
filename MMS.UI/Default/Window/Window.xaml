@@ -24,7 +24,7 @@
             </TextBlock>
             <!--Icon-->
             <Border>
-                <Image HorizontalAlignment="Left" Height="24" Width="24" Margin="10,5,0,0" Stretch="UniformToFill" VerticalAlignment="Top"/>
+                <Image HorizontalAlignment="Left" Height="24" Width="24" Margin="10,5,0,0" Stretch="UniformToFill" VerticalAlignment="Top" x:Name="logo"/>
             </Border>
 
             <Grid>

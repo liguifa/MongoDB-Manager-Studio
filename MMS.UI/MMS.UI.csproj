@@ -72,6 +72,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Default\Navigation\Navigation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Default\Table\Table.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -102,6 +106,10 @@
     <Compile Include="Default\Explorer\ExplorerItem.cs" />
     <Compile Include="Default\Menu\Menu.cs" />
     <Compile Include="Default\Menu\MenuItem.cs" />
+    <Compile Include="Default\Navigation\Convert\BorderConvert.cs" />
+    <Compile Include="Default\Navigation\Convert\StatusConvert.cs" />
+    <Compile Include="Default\Navigation\NavigationItem.cs" />
+    <Compile Include="Default\Navigation\Navigation.cs" />
     <Compile Include="Default\Table\Table.cs" />
     <Compile Include="Default\Tabs\Tabs.cs" />
     <Compile Include="Default\Window\RepairWindow.cs" />
@@ -170,6 +178,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Default\Resource\Images\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Default\Navigation\Images\wi_Configured_12x12.png" />
+    <Resource Include="Default\Navigation\Images\wi_Configuring_12x12.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

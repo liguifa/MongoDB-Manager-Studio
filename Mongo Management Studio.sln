@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Client", "MMS.Client\MMS.Client.csproj", "{E0053072-0FA0-4F52-AC83-B2AB023D4C2C}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Grammar", "MMS.Grammar\MMS.Grammar.csproj", "{16AC7D83-90C0-426B-9664-B153A4F961B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Command", "MMS.Command\MMS.Command.csproj", "{ACA94866-D8CD-462F-81EA-FCA4FD04D2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Installation", "MMS.Installation\MMS.Installation.csproj", "{B0D86B73-E821-4CBF-AD17-DCC6A758B615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{ACA94866-D8CD-462F-81EA-FCA4FD04D2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACA94866-D8CD-462F-81EA-FCA4FD04D2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACA94866-D8CD-462F-81EA-FCA4FD04D2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D86B73-E821-4CBF-AD17-DCC6A758B615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D86B73-E821-4CBF-AD17-DCC6A758B615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D86B73-E821-4CBF-AD17-DCC6A758B615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D86B73-E821-4CBF-AD17-DCC6A758B615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
