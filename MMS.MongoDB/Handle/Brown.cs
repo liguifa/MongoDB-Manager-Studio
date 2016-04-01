@@ -1,4 +1,5 @@
 ﻿using MMS.Command;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,18 +10,16 @@ namespace MMS.MongoDB
 {
     public class Brown
     {
+        private MongoServer mServer;
 
-        private readonly RunCommand mRunSpace;
-
-        public Brown(RunCommand runSpace)
+        public Brown(MongoServer server)
         {
-            this.mRunSpace = runSpace;
+            this.mServer = server;
         }
         public MongoDBTree GetMongoDBTree()
         {
-            MMS.Command.Command showCmd = CommandFactory.Create(CommandType.Show, new CommandParameter());
-            List<string> outStr = this.mRunSpace.Run(showCmd);
-            return this.BuildTree(outStr);
+            List<string> dbs = this.mServer.GetDatabaseNames().ToList();
+            return this.BuildTree(dbs);
         }
 
         private MongoDBTree BuildTree(List<string> dbs)
@@ -29,20 +28,22 @@ namespace MMS.MongoDB
             tree.Name = "127.0.0.1";
             tree.NodeType = MongoDBTreeNodeType.Server;
             tree.Children = new List<MongoDBTree>();
-
-            MongoDBTree docMenu = new MongoDBTree();
-            docMenu.Name = "Document";
-            docMenu.NodeType = MongoDBTreeNodeType.Menu;
-            docMenu.Children = new List<MongoDBTree>();
             foreach (string db in dbs)
             {
                 MongoDBTree dbTree = new MongoDBTree();
                 dbTree.Name = db;
                 dbTree.NodeType = MongoDBTreeNodeType.Docmenu;
-                docMenu.Children.Add(dbTree);
+                dbTree.Children = new List<MongoDBTree>();
+                MongoDatabase database = this.mServer.GetDatabase(db);
+                foreach (string item in database.GetCollectionNames())
+                {
+                    MongoDBTree itemTree = new MongoDBTree();
+                    itemTree.Name = item;
+                    itemTree.NodeType = MongoDBTreeNodeType.Docmenu;
+                    dbTree.Children.Add(itemTree);
+                }
+                tree.Children.Add(dbTree);
             }
-            tree.Children.Add(docMenu);
-
             return tree;
         }
     }

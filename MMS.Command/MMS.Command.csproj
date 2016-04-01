@@ -43,7 +43,8 @@
     <Compile Include="CommandConfig.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Commands\RunShellCommand.cs" />
-    <Compile Include="Commands\ShowCommand.cs" />
+    <Compile Include="Commands\ShowDBCommand.cs" />
+    <Compile Include="Commands\ShowTableCommand.cs" />
     <Compile Include="Commands\StartCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RunCommand.cs" />

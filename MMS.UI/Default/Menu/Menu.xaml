@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:MMS.UI.Default">
-    <ControlTemplate x:Key="DefaultMenuTemplate" TargetType="{x:Type local:NavigationMenu}">
+    <ControlTemplate x:Key="DefaultMenuTemplate" TargetType="{x:Type local:Menu}">
         <StackPanel>
             <Menu Height="30" x:Name="mainMenu">
                 <Menu.ItemTemplate>
@@ -17,7 +17,7 @@
             <TextBox Height="1"/>
         </StackPanel>
     </ControlTemplate>
-    <Style x:Key="DefaultMenuStyle" TargetType="{x:Type local:NavigationMenu}">
+    <Style x:Key="DefaultMenuStyle" TargetType="{x:Type local:Menu}">
         <Setter Property="Template" Value="{StaticResource DefaultMenuTemplate}" />
     </Style>
 </ResourceDictionary>

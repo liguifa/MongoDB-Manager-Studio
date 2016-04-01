@@ -38,24 +38,11 @@ namespace MMS.Client
 
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            //Connection connection = new Connection();
-            //connection.Show();
-            UI.Default.Table table = new UI.Default.Table();
-            table.Source = "[{\"id\":\"1\",\"Name\":\"李贵发\",\"Age\":\"23\"},{\"id\":\"2\",\"Name\":\"张山\",\"Age\":\"63\"},{\"id\":\"3\",\"Name\":\"王二\",\"Age\":\"41\"}]";
-            this.tabs.Add("VM5310SQL11-WSS_Context", table);
-
-            UI.Default.Edit edit = new Edit();
-            edit.TextChanged += ga.StartAnalysis;
-            this.tabs.Add("VM5310SQL11-WSS_Context.Code", edit);
-            //table.UpdateContext();
-            MMS.UI.Default.Connection connectWindow = new MMS.UI.Default.Connection();
-            connectWindow.OKButton_Click += connectWindow_OKClick_Event;
-            connectWindow.Show();
+            this.ConnectMongoDB();
         }
 
-        void connectWindow_OKClick_Event()
+        private void ConnectMongoDB()
         {
-            MongoDBManager.GetInstance().GetConnect().Connect("", "", "", "");
             MongoDBTree tree = MongoDBManager.GetInstance().GetBrown().GetMongoDBTree();
             List<ExplorerItem> items = new List<ExplorerItem>();
             items.Add(this.ParseMongoDBTree(tree));
@@ -66,7 +53,11 @@ namespace MMS.Client
         {
             ExplorerItem m = new ExplorerItem();
             m.Text = tree.Name;
-            m.Icon = "/MMS.UI;Component/Default/Explorer/Images/Database.ico";
+            m.Type = ExplorerItemType.Docmenut;
+            if (tree.NodeType == MongoDBTreeNodeType.Server)
+            {
+                m.Type = ExplorerItemType.Server;
+            }
             if (tree.Children != null && tree.Children.Count > 0)
             {
                 m.Children = new List<ExplorerItem>();

@@ -32,3 +32,67 @@ MongoDB shell version: 3.2.4
 connecting to: test
 local  0.000GB
 test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+2016-04-02T20:24:41.950+0800 E QUERY    [thread1] SyntaxError: missing ; before statement @(shell):1:5
+2016-04-02T20:24:43.885+0800 E QUERY    [thread1] SyntaxError: missing ; before statement @(shell):1:5
+MongoDB shell version: 3.2.4
+connecting to: test
+local  0.000GB
+test   0.000GB
+blog
+nams
+blog
+nams

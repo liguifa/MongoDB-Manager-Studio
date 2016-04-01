@@ -51,7 +51,8 @@ namespace MMS.Command
     {
         Start,
         Shell,
-        Show
+        ShowDB,
+        ShowTable
     }
 
     public static class CommandFactory
@@ -68,9 +69,13 @@ namespace MMS.Command
                     {
                         return new RunShellCommand();
                     }
-                case CommandType.Show:
+                case CommandType.ShowDB:
                     {
-                        return new ShowCommand();
+                        return new ShowDBCommand();
+                    }
+                case CommandType.ShowTable:
+                    {
+                        return new ShowTableCommand();
                     }
             }
             return null;

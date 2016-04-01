@@ -12,6 +12,16 @@ namespace MMS.UI.Default
 
         public string Icon { get; set; }
 
+        public ExplorerItemType Type { get; set; }
+
         public List<ExplorerItem> Children { get; set; }
+    }
+
+    public enum ExplorerItemType
+    {
+        Server,
+        Menu,
+        Docmenut,
+        List
     }
 }
