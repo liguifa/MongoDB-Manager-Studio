@@ -8,12 +8,12 @@ using System.Windows.Input;
 
 namespace MMS.Installation
 {
-    public class CancelButton : Button
+    public class CancelButton : MMS.Installation.Button
     {
         public CancelButton()
         {
             this.Text = "取消";
-            this.IsEnable = false;
+            this.IsEnabled = true;
             this.ButtonVisiblity = Visibility.Visible;
             this.Command = new CancelCommand();
         }

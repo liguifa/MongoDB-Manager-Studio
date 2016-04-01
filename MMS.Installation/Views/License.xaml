@@ -24,6 +24,6 @@
                 <TextBox IsReadOnly="True" BorderThickness="0" VerticalAlignment="Stretch" FontFamily="Arial" Background="#EDEDED" FontSize="11" Text="{Binding LicenseText}" TextWrapping="Wrap" TextAlignment="Justify" Margin="5,5,5,5"  />
             </ScrollViewer>
         </Border>
-        <CheckBox Grid.Row="3" VerticalAlignment="Center" Content="我接受许可协议中的条款。" />
+        <CheckBox Grid.Row="3" VerticalAlignment="Center" Content="我接受许可协议中的条款。" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" IsChecked="True" />
     </Grid>
 </Page>

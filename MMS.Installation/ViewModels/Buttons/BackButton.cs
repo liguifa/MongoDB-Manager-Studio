@@ -13,13 +13,13 @@ namespace MMS.Installation
         public BackButton()
         {
             this.Text = "上一步";
-            this.IsEnable = false;
+            this.IsEnabled = true;
             this.ButtonVisiblity = Visibility.Hidden;
             this.Command = new BackCommand();
         }
     }
 
-    public class BackCommand:ICommand
+    public class BackCommand : ICommand
     {
 
         public bool CanExecute(object parameter)
@@ -31,7 +31,7 @@ namespace MMS.Installation
 
         public void Execute(object parameter)
         {
-            throw new NotImplementedException();
+            Navigation.GetInstance().Back();
         }
     }
 }

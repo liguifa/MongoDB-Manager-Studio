@@ -23,6 +23,15 @@ namespace MMS.Installation.Views
         public Process()
         {
             InitializeComponent();
+            this.Loaded += Process_Loaded;
+            this.DataContext = ProcessViewModel.GetInstance();
+        }
+
+        void Process_Loaded(object sender, RoutedEventArgs e)
+        {
+            //开始安装
+            InstallProcess install = new InstallProcess();
+            install.Start();
         }
     }
 }

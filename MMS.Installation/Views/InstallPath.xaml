@@ -23,8 +23,8 @@
                 <ColumnDefinition Width="105" />
             </Grid.ColumnDefinitions>
             <Image Grid.Column="0" Source="/Images/folder.png" Height="32" Width="32" VerticalAlignment="Center" HorizontalAlignment="Center" />
-            <TextBox Grid.Column="1" Width="415" MaxLength="255" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FFF" BorderBrush="#FFABABAB" BorderThickness="1" />
-            <Button Grid.Column="2" Background="#ffffff" Width="80" Height="25" BorderBrush="#FFABABAB" BorderThickness="1" Content="浏  览" Cursor="Hand" />
+            <TextBox Grid.Column="1" TextChanged="TextBox_TextChanged" Text="{Binding InstallPath}" Width="415" MaxLength="255" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FFF" BorderBrush="#FFABABAB" BorderThickness="1" />
+            <Button Grid.Column="2" Background="#ffffff" Width="80" Height="25" BorderBrush="#FFABABAB" BorderThickness="1" Content="{Binding ScanButton.Text}" Cursor="Hand" Command="{Binding ScanButton.Command}" />
         </Grid>
     </Grid>
 </Page>

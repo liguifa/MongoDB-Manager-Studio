@@ -14,8 +14,8 @@ namespace MMS.Installation
         private string mText = String.Empty;
         public string Text { get { return this.mText; } set { this.mText = value; OnPropertyChanged("Text"); } }
 
-        private bool mIsEnable = false;
-        public bool IsEnable { get { return this.mIsEnable; } set { this.mIsEnable = value; OnPropertyChanged("IsEnable"); } }
+        private bool mIsEnabled = false;
+        public bool IsEnabled { get { return this.mIsEnabled; } set { this.mIsEnabled = value; OnPropertyChanged("IsEnabled"); } }
 
         private Visibility mButtonVisiblity = Visibility.Visible;
         public Visibility ButtonVisiblity { get { return this.mButtonVisiblity; } set { this.mButtonVisiblity = value; OnPropertyChanged("ButtonVisiblity"); } }

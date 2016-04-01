@@ -24,6 +24,17 @@ namespace MMS.Installation.Views
         {
             InitializeComponent();
             this.DataContext = LicenseViewModel.GetInstance();
+            MainWindowViewModel.GetInstance().BackButton.ButtonVisiblity = System.Windows.Visibility.Hidden;
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            MainWindowViewModel.GetInstance().NextButton.IsEnabled = true;
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MainWindowViewModel.GetInstance().NextButton.IsEnabled = false;
         }
     }
 }

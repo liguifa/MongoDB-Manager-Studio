@@ -23,6 +23,7 @@ namespace MMS.Installation.Views
         public MongoDBSet()
         {
             InitializeComponent();
+            this.DataContext = MongoSetViewModel.GetInstance();
         }
     }
 }

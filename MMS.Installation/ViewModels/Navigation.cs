@@ -83,6 +83,41 @@ namespace MMS.Installation
             this.mCurrent++;
             this.CurrentPage = this.mItems[this.mCurrent].Url;
             this.mItems[this.mCurrent].Status = NavigationType.Process;
+            this.UpdateButtonStatus();
+        }
+
+        public void Back()
+        {
+            this.mItems[this.mCurrent].Status = NavigationType.Wait;
+            this.mCurrent--;
+            this.CurrentPage = this.mItems[this.mCurrent].Url;
+            this.mItems[this.mCurrent].Status = NavigationType.Process;
+            this.UpdateButtonStatus();
+        }
+
+        private void UpdateButtonStatus()
+        {
+            if (this.mCurrent == 0)
+            {
+                MainWindowViewModel.GetInstance().BackButton.ButtonVisiblity = System.Windows.Visibility.Hidden;
+            }
+            else
+            {
+                MainWindowViewModel.GetInstance().BackButton.ButtonVisiblity = System.Windows.Visibility.Visible;
+            }
+            if (this.mCurrent >= this.Items.Count - 2)
+            {
+                MainWindowViewModel.GetInstance().BackButton.IsEnabled = false;
+                MainWindowViewModel.GetInstance().NextButton.IsEnabled = false;
+            }
+            if (this.mCurrent == this.Items.Count - 1)
+            {
+                MainWindowViewModel.GetInstance().BackButton.ButtonVisiblity = System.Windows.Visibility.Collapsed;
+                MainWindowViewModel.GetInstance().NextButton.IsEnabled = true;
+                MainWindowViewModel.GetInstance().NextButton.Text = "完  成";
+                MainWindowViewModel.GetInstance().NextButton.Command = new FinishCommand();
+                MainWindowViewModel.GetInstance().CancelButton.ButtonVisiblity = System.Windows.Visibility.Collapsed;
+            }
         }
     }
 }

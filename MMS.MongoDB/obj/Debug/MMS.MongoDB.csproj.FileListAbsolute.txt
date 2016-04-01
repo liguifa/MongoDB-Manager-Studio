@@ -19,3 +19,6 @@ J:\MMS\MMS.MongoDB\obj\Debug\MMS.MongoDB.dll
 J:\MMS\MMS.MongoDB\obj\Debug\MMS.MongoDB.pdb
 J:\MMS\MMS.MongoDB\bin\Debug\MongoDB.Bson.dll
 J:\MMS\MMS.MongoDB\bin\Debug\MongoDB.Driver.dll
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.csprojResolveAssemblyReference.cache
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.dll
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.pdb

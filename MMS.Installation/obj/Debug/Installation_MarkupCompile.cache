@@ -1,4 +1,4 @@
-﻿MMS.Installation
+﻿Installation
 
 
 winexe
@@ -12,8 +12,8 @@ DEBUG;TRACE
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Installation\App.xaml
 6-1926783088
 
-17449670410
-13522405745
+21-876949218
+161577787886
 MainWindow.xaml;Views\Finish.xaml;Views\Process.xaml;Views\MongoDBSet.xaml;Views\InstallPath.xaml;Views\License.xaml;
 
 False

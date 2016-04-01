@@ -23,6 +23,18 @@ namespace MMS.Installation.Views
         public InstallPath()
         {
             InitializeComponent();
+            this.DataContext = InstallPathViewModel.GetInstance();
+            ((NextCommand)(MainWindowViewModel.GetInstance().NextButton.Command)).IsCanEnabled += InstallPath_IsCanEnabled;
+        }
+
+        private bool InstallPath_IsCanEnabled()
+        {
+            return !String.IsNullOrEmpty(InstallPathViewModel.GetInstance().InstallPath);
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MainWindowViewModel.GetInstance().NextButton.IsEnabled = !String.IsNullOrEmpty(InstallPathViewModel.GetInstance().InstallPath);
         }
     }
 }

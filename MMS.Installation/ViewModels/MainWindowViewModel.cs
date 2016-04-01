@@ -14,7 +14,9 @@ namespace MMS.Installation
 
         private MainWindowViewModel()
         {
-
+            this.BackButton = new BackButton();
+            this.NextButton = new NextButton();
+            this.CancelButton = new CancelButton();
         }
 
         public static MainWindowViewModel GetInstance()
@@ -32,16 +34,11 @@ namespace MMS.Installation
             return mainWindow;
         }
 
-        private BackButton mBackButton = new BackButton();
-        public BackButton BackButton { get { return this.mBackButton; } set { this.mBackButton = value; OnPropertyChanged("BackButton"); } }
-
-        private NextButton mNextButton = new NextButton();
-        public NextButton NextButton { get { return this.mNextButton; } set { this.mNextButton = value; OnPropertyChanged("NextButton"); } }
-
-        private CancelButton mCancelButton = new CancelButton();
-        public CancelButton CancelButton { get { return this.mCancelButton; } set { this.mCancelButton = value; OnPropertyChanged("CancelButton"); } }
+        public BackButton BackButton { get; set; }
+        public NextButton NextButton { get; set; }
+        public CancelButton CancelButton { get; set; }
 
         private Navigation mNavigation = Navigation.GetInstance();
-        public Navigation Navigation { get { return this.mNavigation; } set { this.mNavigation = value; OnPropertyChanged("Navigation"); } }
+        public Navigation Navigation { get { return this.mNavigation; } set { this.mNavigation = value; } }
     }
 }
