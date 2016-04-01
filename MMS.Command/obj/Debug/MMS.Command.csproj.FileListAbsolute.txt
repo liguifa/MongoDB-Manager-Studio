@@ -1,0 +1,5 @@
+C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Command\obj\Debug\MMS.Command.csprojResolveAssemblyReference.cache
+C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Command\bin\Debug\MMS.Command.dll
+C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Command\bin\Debug\MMS.Command.pdb
+C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Command\obj\Debug\MMS.Command.dll
+C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.Command\obj\Debug\MMS.Command.pdb
