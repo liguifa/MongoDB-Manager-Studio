@@ -1,4 +1,5 @@
 ﻿using MMS.Command;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,21 +10,19 @@ namespace MMS.MongoDB
 {
     public class ConnecHandle
     {
-        private readonly RunCommand mRunSpace;
+        private MongoServer mServer;
 
-        public ConnecHandle(RunCommand runSpace)
+        public ConnecHandle(MongoServer server)
         {
-            this.mRunSpace = runSpace;
+            this.mServer = server;
         }
 
         public bool Connect(string name, string address, string username, string password)
         {
             try
             {
-                MMS.Command.Command startCmd = CommandFactory.Create(CommandType.Start, new CommandParameter());
-                this.mRunSpace.Start(startCmd);
-                MMS.Command.Command shellCmd = CommandFactory.Create(CommandType.Shell, new CommandParameter());
-                this.mRunSpace.Shell(shellCmd);
+                string strconn = "mongodb://127.0.0.1:27017";
+                this.mServer = MongoServer.Create(strconn);
             }
             catch (Exception e)
             {

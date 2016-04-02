@@ -104,6 +104,7 @@
     <Compile Include="Default\Edit\GrammarType.cs" />
     <Compile Include="Default\Explorer\Explorer.cs" />
     <Compile Include="Default\Explorer\ExplorerItem.cs" />
+    <Compile Include="Default\Explorer\TypeConvert.cs" />
     <Compile Include="Default\Menu\Menu.cs" />
     <Compile Include="Default\Menu\MenuItem.cs" />
     <Compile Include="Default\Navigation\Convert\BorderConvert.cs" />

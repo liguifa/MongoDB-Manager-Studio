@@ -15,6 +15,8 @@ namespace MMS.UI.Default
         private Button mMaxBtn;
         private Button mRestoreBtn;
         private DockPanel mTitleBorder;
+        private Image mLogo;
+        private TextBlock mTitleTextBlock;
 
         public Window()
         {
@@ -30,6 +32,8 @@ namespace MMS.UI.Default
             this.mMaxBtn = (Button)this.GetTemplateChild("maxBtn");
             this.mRestoreBtn = (Button)this.GetTemplateChild("restoreBtn");
             this.mTitleBorder = (DockPanel)this.GetTemplateChild("titleBorder");
+            this.mLogo = (Image)this.GetTemplateChild("logo");
+            this.mTitleTextBlock = (TextBlock)this.GetTemplateChild("TitleTextBlock");
             base.OnApplyTemplate();
         }
 
@@ -40,11 +44,13 @@ namespace MMS.UI.Default
             this.mMaxBtn.Click += mMaxBtn_Click;
             this.mRestoreBtn.Click += mRestoreBtn_Click;
             this.mTitleBorder.MouseMove += mTitleBorder_MouseMove;
+            this.mLogo.Source = this.Icon;
+            this.mTitleTextBlock.Text = this.Title;
         }
 
         void mTitleBorder_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
         {
-            if(e.LeftButton == System.Windows.Input.MouseButtonState.Pressed)
+            if (e.LeftButton == System.Windows.Input.MouseButtonState.Pressed)
             {
                 this.DragMove();
             }

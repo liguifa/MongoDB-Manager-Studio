@@ -12,7 +12,7 @@
         <ResourceDictionary Source="/MMS.UI;Component/Default/Navigation/Navigation.xaml" />
     </ResourceDictionary.MergedDictionaries>
     <Style TargetType="{x:Type default:Window}" BasedOn="{StaticResource DefaultWindowStyle}"/>
-    <Style TargetType="{x:Type default:NavigationMenu}" BasedOn="{StaticResource DefaultMenuStyle}"/>
+    <Style TargetType="{x:Type default:Menu}" BasedOn="{StaticResource DefaultMenuStyle}"/>
     <Style TargetType="{x:Type default:Connection}" BasedOn="{StaticResource ConnectionStyle}" />
     <Style TargetType="{x:Type default:Explorer}" BasedOn="{StaticResource ExplorerStyle}" />
     <Style TargetType="{x:Type default:Tabs}" BasedOn="{StaticResource TabsStyle}" />

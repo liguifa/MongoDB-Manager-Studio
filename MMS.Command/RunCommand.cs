@@ -78,7 +78,7 @@ namespace MMS.Command
 
         public List<string> Run(Command cmd)
         {
-            this.mOutPut.Clear();
+            this.mOutPut = new List<string>();
             this.mProcess.StandardInput.WriteLine(cmd.GetCmd() + " &exit");
             this.mProcess.StandardInput.AutoFlush = true;
             //this.mProcess.WaitForExit();//等待程序执行完退出进程

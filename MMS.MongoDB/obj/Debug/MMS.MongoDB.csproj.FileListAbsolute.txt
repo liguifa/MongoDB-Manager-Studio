@@ -10,3 +10,12 @@ C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MM
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.MongoDB\bin\Debug\MMS.MongoDB.pdb
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.MongoDB\bin\Debug\MMS.Command.dll
 C:\Users\Guifa.Lee\Desktop\Mongo Management Studio(3)\Mongo Management Studio\MMS.MongoDB\bin\Debug\MMS.Command.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.MongoDB.dll
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.MongoDB.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.Command.dll
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.Command.pdb
+J:\MMS\MMS.MongoDB\obj\Debug\MMS.MongoDB.csprojResolveAssemblyReference.cache
+J:\MMS\MMS.MongoDB\obj\Debug\MMS.MongoDB.dll
+J:\MMS\MMS.MongoDB\obj\Debug\MMS.MongoDB.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\MongoDB.Bson.dll
+J:\MMS\MMS.MongoDB\bin\Debug\MongoDB.Driver.dll

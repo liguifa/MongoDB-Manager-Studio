@@ -118,3 +118,146 @@
 2016-04-01T21:37:18.566+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
 2016-04-01T21:37:18.566+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
 2016-04-01T21:37:18.566+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:08:19.831+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10464 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:08:19.832+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:08:19.833+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:08:19.833+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:08:19.833+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:09:28.885+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10392 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:09:28.886+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:09:28.887+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:09:28.887+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:09:28.887+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:10:42.455+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10936 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:10:42.456+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:10:42.457+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:10:42.457+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:10:42.457+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4288 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:18:35.995+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:18:35.996+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:18:35.996+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:18:35.996+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] MongoDB starting : pid=5872 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:19:22.614+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:19:22.615+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:19:22.615+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:19:22.615+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:20:11.009+0800 I CONTROL  [initandlisten] MongoDB starting : pid=5960 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:20:11.010+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:20:11.010+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:20:11.010+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:20:59.143+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11000 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:20:59.144+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:20:59.145+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:20:59.145+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:20:59.145+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:22:19.423+0800 I CONTROL  [initandlisten] MongoDB starting : pid=8492 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:22:19.424+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:22:19.425+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:22:19.425+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:22:19.425+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] MongoDB starting : pid=8556 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:23:51.402+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:23:51.403+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:23:51.403+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:23:51.403+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10960 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:24:35.932+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:24:35.933+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:24:35.933+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:24:35.933+0800 I CONTROL  [initandlisten] dbexit:  rc: 48
+2016-04-02T20:25:19.534+0800 I CONTROL  [initandlisten] MongoDB starting : pid=8516 port=27017 dbpath=J:\data\db\ 64-bit host=DESKTOP-EF5FLLO
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] modules: none
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] build environment:
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-02T20:25:19.535+0800 I CONTROL  [initandlisten] options: {}
+2016-04-02T20:25:19.536+0800 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 é€šå¸¸æ¯ä¸ªå¥—æŽ¥å­—åœ°å€(åè®®/ç½‘ç»œåœ°å€/ç«¯å£)åªå…è®¸ä½¿ç”¨ä¸€æ¬¡ã€‚ for socket: 0.0.0.0:27017
+2016-04-02T20:25:19.536+0800 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-02T20:25:19.536+0800 I CONTROL  [initandlisten] dbexit:  rc: 48

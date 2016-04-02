@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MMS.Command
 {
-    public class ShowCommand : Command
+    public class ShowDBCommand : Command
     {
         public override string GetArguments()
         {
