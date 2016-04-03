@@ -56,23 +56,30 @@
                             <ColumnDefinition Width="240" />
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="0" Text="类别" FontSize="15"/>
-                        <ComboBox Grid.Column="1" />
+                        <ComboBox Grid.Column="1" x:Name="dbType">
+                            <ComboBoxItem IsSelected="True">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/MMS.UI;Component/Default/Connection/Images/mongo.ico" Height="16" Margin="0,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    <TextBlock Text="MongoDB" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ComboBoxItem>
+                        </ComboBox>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="50" />
                             <ColumnDefinition Width="240" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" Text="地址" FontSize="15"/>
-                        <TextBox Grid.Column="1" />
+                        <TextBlock Grid.Column="0"  Text="地址" FontSize="15"/>
+                        <TextBox Grid.Column="1" Text="127.0.0.1" x:Name="address" />
                     </Grid>
                     <Grid Grid.Row="2">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="50" />
                             <ColumnDefinition Width="240" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" Text="类别" FontSize="15"/>
-                        <ComboBox Grid.Column="1" />
+                        <TextBlock Grid.Column="0" Text="端口" FontSize="15"/>
+                        <TextBox Grid.Column="1" Text="27017" x:Name="port" />
                     </Grid>
                     <Grid Grid.Row="3">
                         <Grid.ColumnDefinitions>
@@ -80,7 +87,7 @@
                             <ColumnDefinition Width="240" />
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="0" Text="账号" FontSize="15"/>
-                        <ComboBox Grid.Column="1" />
+                        <TextBox Grid.Column="1" x:Name="username" />
                     </Grid>
                     <Grid Grid.Row="4">
                         <Grid.ColumnDefinitions>
@@ -88,7 +95,7 @@
                             <ColumnDefinition Width="240" />
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="0" Text="密码" FontSize="15"/>
-                        <ComboBox Grid.Column="1" />
+                        <PasswordBox Grid.Column="1" x:Name="password" />
                     </Grid>
                     <Grid Grid.Row="5">
                         <Grid.ColumnDefinitions>

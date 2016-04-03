@@ -1,0 +1,5 @@
+C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\bin\Debug\Common.Cryptogram.dll
+C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\bin\Debug\Common.Cryptogram.pdb
+C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.csprojResolveAssemblyReference.cache
+C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.dll
+C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.pdb

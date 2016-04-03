@@ -38,11 +38,29 @@ namespace MMS.Client
 
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            this.ConnectMongoDB();
+            Connection window = new Connection();
+            window.OKButton_Click += ConnectDB;
+            window.ShowDialog();
         }
 
-        private void ConnectMongoDB()
+        private void ConnectDB(string type, string address, string port, string username, string password)
         {
+            try
+            {
+                if (type == "MongoDB")
+                {
+                    this.ConnectMongoDB(address, port, username, password);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+        private void ConnectMongoDB(string address, string port, string username, string password)
+        {
+            MongoDBManager.GetInstance().Connect(address, port, username, password);
             MongoDBTree tree = MongoDBManager.GetInstance().GetBrown().GetMongoDBTree();
             List<ExplorerItem> items = new List<ExplorerItem>();
             items.Add(this.ParseMongoDBTree(tree));

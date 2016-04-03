@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Installation\obj\Debug\
+J:\MMS\MMS.Installation\obj\Debug\
 MMS.Installation
 none
 false
 DEBUG;TRACE
-C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Installation\App.xaml
+J:\MMS\MMS.Installation\App.xaml
 6-1926783088
 
 21-876949218
-161577787886
+16-1381687793
 MainWindow.xaml;Views\Finish.xaml;Views\Process.xaml;Views\MongoDBSet.xaml;Views\InstallPath.xaml;Views\License.xaml;
 
 False

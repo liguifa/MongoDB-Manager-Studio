@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -62,9 +62,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common.Cryptogram\Common.Cryptogram.csproj">
+      <Project>{f8a1a6e1-2bfe-42c1-af1e-ec27c70e594e}</Project>
+      <Name>Common.Cryptogram</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Logger\Common.Logger.csproj">
+      <Project>{c2c92005-3adc-49e2-85a2-8bd031190485}</Project>
+      <Name>Common.Logger</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MMS.Command\MMS.Command.csproj">
       <Project>{aca94866-d8cd-462f-81ea-fca4fd04d2f5}</Project>
       <Name>MMS.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMS.Config\MMS.Config.csproj">
+      <Project>{a724907b-ef35-416a-af6f-340417f40b99}</Project>
+      <Name>MMS.Config</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

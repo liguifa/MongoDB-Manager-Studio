@@ -118,3 +118,12 @@ C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Clien
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Client.g.resources
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Client.Properties.Resources.resources
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\MMS.Client.csproj.GenerateResource.Cache
+J:\MMS\MMS.Client\bin\Debug\Images\displayLogo.ico
+J:\MMS\MMS.Client\bin\Debug\Logger.dll
+J:\MMS\MMS.Client\bin\Debug\MMS.Config.dll
+J:\MMS\MMS.Client\bin\Debug\Common.Cryptogram.dll
+J:\MMS\MMS.Client\bin\Debug\log4net.dll
+J:\MMS\MMS.Client\bin\Debug\Logger.pdb
+J:\MMS\MMS.Client\bin\Debug\MMS.Config.pdb
+J:\MMS\MMS.Client\bin\Debug\Common.Cryptogram.pdb
+J:\MMS\MMS.Client\bin\Debug\log4net.config

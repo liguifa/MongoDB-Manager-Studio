@@ -22,3 +22,10 @@ J:\MMS\MMS.MongoDB\bin\Debug\MongoDB.Driver.dll
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.csprojResolveAssemblyReference.cache
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.dll
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.MongoDB\obj\Debug\MMS.MongoDB.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\Common.Cryptogram.dll
+J:\MMS\MMS.MongoDB\bin\Debug\Logger.dll
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.Config.dll
+J:\MMS\MMS.MongoDB\bin\Debug\log4net.dll
+J:\MMS\MMS.MongoDB\bin\Debug\Common.Cryptogram.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\Logger.pdb
+J:\MMS\MMS.MongoDB\bin\Debug\MMS.Config.pdb

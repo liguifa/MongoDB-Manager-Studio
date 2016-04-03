@@ -121,7 +121,7 @@ namespace MMS.Installation
         {
             WshShell shell = new WshShell();
             IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "Mongodb Manager Studion.lnk"));
-            shortcut.TargetPath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            shortcut.TargetPath = Path.Combine(InstallPathViewModel.GetInstance().InstallPath, "MMS.Client.exe");
             shortcut.WorkingDirectory = InstallPathViewModel.GetInstance().InstallPath;
             shortcut.WindowStyle = 1;
             shortcut.Description = "Mongodb Manager Studion";

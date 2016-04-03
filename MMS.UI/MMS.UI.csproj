@@ -15,7 +15,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -102,9 +102,12 @@
     <Compile Include="Default\Connection\Connection.cs" />
     <Compile Include="Default\Edit\Edit.cs" />
     <Compile Include="Default\Edit\GrammarType.cs" />
+    <Compile Include="Default\Explorer\Convert\RightMenuConvert.cs" />
     <Compile Include="Default\Explorer\Explorer.cs" />
     <Compile Include="Default\Explorer\ExplorerItem.cs" />
-    <Compile Include="Default\Explorer\TypeConvert.cs" />
+    <Compile Include="Default\Explorer\Convert\TypeConvert.cs" />
+    <Compile Include="Default\Explorer\RightMenu\RightMenu.cs" />
+    <Compile Include="Default\Explorer\RightMenu\RightMenuItem.cs" />
     <Compile Include="Default\Menu\Menu.cs" />
     <Compile Include="Default\Menu\MenuItem.cs" />
     <Compile Include="Default\Navigation\Convert\BorderConvert.cs" />
@@ -183,6 +186,9 @@
   <ItemGroup>
     <Resource Include="Default\Navigation\Images\wi_Configured_12x12.png" />
     <Resource Include="Default\Navigation\Images\wi_Configuring_12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Default\Connection\Images\mongo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
