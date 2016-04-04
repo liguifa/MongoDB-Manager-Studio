@@ -41,7 +41,6 @@ namespace MMS.Installation
 
         private void Decompression()
         {
-
             string targetLocation = InstallPathViewModel.GetInstance().InstallPath;
             using (FileStream fs = System.IO.File.Open(this.mSrcCAB, FileMode.Open, FileAccess.Read, FileShare.Read))
             {

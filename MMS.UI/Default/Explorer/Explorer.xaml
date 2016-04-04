@@ -4,7 +4,6 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary>
             <local:TypeConvert x:Key="TypeConvert" />
-            <
         </ResourceDictionary>
     </ResourceDictionary.MergedDictionaries>
     <ControlTemplate x:Key="ExplorerTemplate" TargetType="{x:Type local:Explorer}">
@@ -32,7 +31,7 @@
                                 <Image VerticalAlignment="Center" Source="{Binding Type,Converter={StaticResource TypeConvert}}" Width="16" Height="16" Margin="0,0,2,2"></Image>
                                 <TextBlock VerticalAlignment="Center" Text="{Binding Text}"></TextBlock>
                                 <StackPanel.ContextMenu>
-                                    <ContextMenu Name="RightMenu" StaysOpen="true" ItemsSource="{Binding Type,}">
+                                    <ContextMenu Name="RightMenu" StaysOpen="true" ItemsSource="{Binding Type}">
                                         <ContextMenu.ItemTemplate>
                                             <DataTemplate>
                                                 <MenuItem Header="{Binding Text}" Command="{Binding Command}"/>

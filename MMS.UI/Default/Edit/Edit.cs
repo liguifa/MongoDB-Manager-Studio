@@ -26,6 +26,8 @@ namespace MMS.UI.Default
         public event TextChangedDelegate TextChanged;
         public delegate void TextLineChangedDelegate(int line, string context);
         public event TextLineChangedDelegate TextLineChanged;
+        public delegate void OnEditLineDelegate(Run line,Edit edit);
+        public event OnEditLineDelegate OnEditLine;
 
         public Edit()
         {
@@ -52,7 +54,9 @@ namespace MMS.UI.Default
             {
                 this.mIsChange = true;
                 FlowDocument doc = this.mTextBox.Document;
-                this.TextChanged(ref doc, this);
+                Run line = (Run)Keyboard.FocusedElement;
+                //this.TextChanged(ref doc, this);
+                this.OnEditLine(line, this);
                 Task.Run(() => { this.SetDocument(doc); });
                 this.mIsChange = false;
             }
