@@ -1,0 +1,8 @@
+J:\MMS\MMS.Config\bin\Debug\MMS.Config.dll
+J:\MMS\MMS.Config\bin\Debug\MMS.Config.pdb
+J:\MMS\MMS.Config\bin\Debug\Logger.dll
+J:\MMS\MMS.Config\bin\Debug\log4net.dll
+J:\MMS\MMS.Config\bin\Debug\Logger.pdb
+J:\MMS\MMS.Config\obj\Debug\MMS.Config.csprojResolveAssemblyReference.cache
+J:\MMS\MMS.Config\obj\Debug\MMS.Config.dll
+J:\MMS\MMS.Config\obj\Debug\MMS.Config.pdb

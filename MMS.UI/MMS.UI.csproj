@@ -120,7 +120,6 @@
     <Compile Include="Default\Connection\Connection.cs" />
     <Compile Include="Default\Edit\Edit.cs" />
     <Compile Include="Default\Edit\GrammarType.cs" />
-    <Compile Include="Default\Explorer\Command\NewCollectionCommand.cs" />
     <Compile Include="Default\Explorer\Convert\RightMenuConvert.cs" />
     <Compile Include="Default\Explorer\Explorer.cs" />
     <Compile Include="Default\Explorer\ExplorerItem.cs" />

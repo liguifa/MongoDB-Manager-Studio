@@ -3,3 +3,8 @@ C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\bin\Debug\Common.C
 C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.csprojResolveAssemblyReference.cache
 C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.dll
 C:\Users\Guifa.Lee\Desktop\Mooc\Mooc\Common\Common.Cryptogram\obj\Debug\Common.Cryptogram.pdb
+J:\MMS\Common.Cryptogram\bin\Debug\Common.Cryptogram.dll
+J:\MMS\Common.Cryptogram\bin\Debug\Common.Cryptogram.pdb
+J:\MMS\Common.Cryptogram\obj\Debug\Common.Cryptogram.csprojResolveAssemblyReference.cache
+J:\MMS\Common.Cryptogram\obj\Debug\Common.Cryptogram.dll
+J:\MMS\Common.Cryptogram\obj\Debug\Common.Cryptogram.pdb

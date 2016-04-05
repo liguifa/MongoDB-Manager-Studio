@@ -13,10 +13,10 @@ namespace MMS.UI.Default
             List<RightMenuItem> menus = new List<RightMenuItem>();
             RightMenuItem item = new RightMenuItem()
             {
-                Text = "刷新"
-                //TODO
+                Text = "新建集合",
+                //Command = new NewCollectionCommand()
             };
-            //TODO
+            menus.Add(item);
             return null;
         }
     }
