@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace MMS.UI.Default
 {
-    public class RightMenuItem : BaseINotifyPropertyChanged
+    public class ContextMenuItem : BaseINotifyPropertyChanged
     {
         private string mText = String.Empty;
         public string Text { get { return this.mText; } set { this.mText = value; OnPropertyChanged("Text"); } }
