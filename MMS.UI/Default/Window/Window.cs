@@ -73,7 +73,7 @@ namespace MMS.UI.Default
 
         private void MCloseBtn_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            
         }
     }
 }

@@ -34,6 +34,12 @@ namespace MMS.Client
             InitializeComponent();
             this.menu.MenuItems = MainWindowViewModel.GetInstance().MenuItems;
             this.Loaded += MainWindow_Loaded;
+            this.Closed += MainWindow_Closed;
+        }
+
+        void MainWindow_Closed(object sender, EventArgs e)
+        {
+            MongoDBManager.GetInstance().Dispose();
         }
 
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -72,9 +78,11 @@ namespace MMS.Client
             ExplorerItem m = new ExplorerItem();
             m.Text = tree.Name;
             m.Type = ExplorerItemType.Docmenut;
+            m.ContextMenu = MMS.Client.ContextMenu.DocumenuContextMenu;
             if (tree.NodeType == MongoDBTreeNodeType.Server)
             {
                 m.Type = ExplorerItemType.Server;
+                m.ContextMenu = MMS.Client.ContextMenu.ServerContextMenu;
             }
             if (tree.Children != null && tree.Children.Count > 0)
             {
