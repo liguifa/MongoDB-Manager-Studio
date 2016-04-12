@@ -4,17 +4,17 @@
 library
 C#
 .cs
-J:\MMS\MMS.UI\obj\Debug\
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\
 MMS.UI
 none
 false
 DEBUG;TRACE
 
-101429606674
+11-381461360
 
-231624642019
-13-2129983579
-Default\Connection\Connection.xaml;Default\Edit\Edit.xaml;Default\Explorer\Explorer.xaml;Default\Menu\Menu.xaml;Default\Navigation\Navigation.xaml;Default\Table\Table.xaml;Default\Tabs\Tabs.xaml;Themes\Generic.xaml;Default\Resource\Resource.xaml;Default\Window\Window.xaml;
+232009115769
+131867295315
+Default\Calendar\Calendar.xaml;Default\Connection\Connection.xaml;Default\Edit\Edit.xaml;Default\Explorer\Explorer.xaml;Default\Menu\Menu.xaml;Default\Navigation\Navigation.xaml;Default\Table\Table.xaml;Default\Tabs\Tabs.xaml;Themes\Generic.xaml;Default\Resource\Resource.xaml;Default\Window\Window.xaml;
 
 False
 

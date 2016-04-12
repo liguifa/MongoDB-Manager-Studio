@@ -113,4 +113,5 @@ J:\MMS\MMS.UI\obj\Debug\MMS.UI.Properties.Resources.resources
 J:\MMS\MMS.UI\obj\Debug\MMS.UI.csproj.GenerateResource.Cache
 J:\MMS\MMS.UI\obj\Debug\MMS.UI.dll
 J:\MMS\MMS.UI\obj\Debug\MMS.UI.pdb
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\Default\Calendar\Calendar.baml
 C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UI\obj\Debug\MMS.UI.csprojResolveAssemblyReference.cache

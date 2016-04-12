@@ -74,6 +74,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Default\Calendar\Calendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Default\Connection\Connection.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,12 +121,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\BaseINotifyPropertyChanged.cs" />
+    <Compile Include="Default\Calendar\Calendar.cs" />
     <Compile Include="Default\Connection\Connection.cs" />
     <Compile Include="Default\Edit\Edit.cs" />
     <Compile Include="Default\Edit\GrammarType.cs" />
     <Compile Include="Default\Explorer\Explorer.cs" />
     <Compile Include="Default\Explorer\ExplorerItem.cs" />
+    <Compile Include="Default\Explorer\RightMenuConvert.cs" />
     <Compile Include="Default\Explorer\RightMenu\ContextMenuItem.cs" />
+    <Compile Include="Default\Explorer\TypeConvert.cs" />
     <Compile Include="Default\Menu\Menu.cs" />
     <Compile Include="Default\Menu\MenuItem.cs" />
     <Compile Include="Default\Navigation\Convert\BorderConvert.cs" />
@@ -204,6 +211,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Default\Connection\Images\mongo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Default\Calendar\Images\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Default\Resource\Images\left-btn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Default\Resource\Images\right-btn.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

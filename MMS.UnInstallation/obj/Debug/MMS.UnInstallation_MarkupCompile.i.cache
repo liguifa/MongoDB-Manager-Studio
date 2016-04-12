@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-J:\MMS\MMS.UnInstallation\obj\Debug\
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UnInstallation\obj\Debug\
 MMS.UnInstallation
 none
 false
 DEBUG;TRACE
-J:\MMS\MMS.UnInstallation\App.xaml
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.UnInstallation\App.xaml
 4-1267864334
 
-21-747411198
-15-109251395
+21-886240099
+1548225871
 MainWindow.xaml;Views\Finish.xaml;Views\Confirm.xaml;Views\Process.xaml;
 
 False

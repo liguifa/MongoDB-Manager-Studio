@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-J:\MMS\MMS.Client\obj\Debug\
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\obj\Debug\
 MMS.Client
 none
 false
 DEBUG;TRACE
-J:\MMS\MMS.Client\App.xaml
-11151548125
+C:\Users\gfli\Source\Repos\MongoDB-Manager-Studio\MMS.Client\App.xaml
+2-1509573300
 
-11-1559033657
-15-240974649
-MainWindow.xaml;
+13-1809184592
+151653580115
+MainWindow.xaml;Window\MongoDBBackupWindow.xaml;
 
 False
 
